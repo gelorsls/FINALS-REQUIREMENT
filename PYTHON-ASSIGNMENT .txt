@@ -1,0 +1,17 @@
+from random import uniform
+num1=uniform(1,100)
+num2=uniform(1,100)
+num3=uniform(1,100)
+num4=uniform(1,100)
+num5=uniform(1,100)
+print("The numbers with two decimal accuracy are: ")
+print(round(num1,2))
+print(round(num2,2))
+print(round(num3,2))
+print(round(num4,2))
+print(round(num5,2))
+
+average=(round(num1,2))+(round(num2,2))+(round(num3,2))+(round(num4,2))+(round(num5,2))//5
+print("The average is ", round(average,2),".",sep="")
+
+ *My favorite app::Python3 IDE Fresh Edition  https://itunes.apple.com/app/id1397406775?mt=8

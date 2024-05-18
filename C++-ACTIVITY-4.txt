@@ -1,0 +1,42 @@
+
+#include<iostream>
+#include<cmath>
+using namespace std;
+int main()
+{
+    //pass or failed
+    
+    float g1, g2, g3, g4, g5, average;
+    
+    cout<<"Type your grade in Science: ";
+    cin>>g1;
+    
+    cout<<"Type your grade in English: ";
+    cin>>g2;
+    
+    cout<<"Type your grade in Math: ";
+    cin>>g3;
+    
+    cout<<"Type your grade in Philosophy: ";
+    cin>>g4;
+    
+    cout<<"Type your grade in MIL: ";
+    cin>>g5;
+    
+    average= (g1+g2+g3+g4+g5)/5;
+ 
+ cout<<"Your Average is "<<average<<".\n";
+ 
+ if (average>=75){
+     cout<<"You passed the semester ";
+ }
+ else{
+     cout<<"You failed the semester";
+ }
+    
+    
+    
+    
+    return 0;
+    
+    }

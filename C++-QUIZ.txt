@@ -1,0 +1,49 @@
+include<iostream>
+using namespace std;
+int main()
+{
+   cout<<" Answer the following Question Properly, Goodluck! \n";
+   cout<<" Enumeration: \n";
+   
+   string a = " ";
+   string b = " ";
+   string c = " ";
+   string d = " ";
+   string e = " ";
+   int s = 0;
+   
+   cout<<" 1) What is the opposite of Happy? ";
+   cin>>a;
+   
+   cout<<" 2) Where is the 'Luneta Park' located? ";
+   cin>>b;
+   
+   cout<<" 3) What is 'Au' in Periodic Table? ";
+   cin>>c;
+   
+   cout<<" 4) what is the capital of South Korea? ";
+   cin>>d;
+   
+   cout<<" 5) What is the Square root of 100? ";
+   cin>>e;
+   
+   cout<<"\n ----RESULT---- \n";
+   (a=="Sad")? cout<<" 1) Correct \n": cout<<" 1) Wrong: Correct answer is Sad \n";
+   (b=="Manila")? cout<<" 2) Correct \n": cout<<" 2) Wrong: Correct answer is Manila \n";
+   (c=="Gold")? cout<<" 3) Correct \n": cout<<" 3) Wrong: Correct answer is Gold \n";
+   (d=="Seoul")? cout<<" 4) Correct \n": cout<<" 4) Wrong: Correct answer is Seoul \n";
+   (e=="10")? cout<<" 5) Correct \n": cout<<" 5) Wrong: Correct answer is 10 \n";
+   
+   string x[]={a, b, c, d, e};
+   string ans[]={"Sad", "Manila", "Gold", "Seoul", "10"};
+   
+   for(int i=0; i<5; i++)
+   {if(x[i]==ans[i])
+   {s = s+1;}
+   else s = s+0;
+   }
+   
+   cout<<" \n YOU GOT AN EQUIVALENT SCORE OF " <<s*20<<"%";
+   
+   return 0;
+}

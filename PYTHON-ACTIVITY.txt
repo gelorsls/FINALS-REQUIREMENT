@@ -1,0 +1,8 @@
+##ROSALES,ANGELO JOSHUA G.
+
+print("Hello, Enter Two numbers and an operator");
+num1 = eval(input("Enter the first number: "))
+num2 = eval(input("Enter the second number: "))
+ if x= ("+")
+sum=num1+num2
+print("sum: ", sum)

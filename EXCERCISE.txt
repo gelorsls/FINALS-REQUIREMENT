@@ -1,0 +1,7 @@
+
+power= int(input("Enter power: "))
+ans= 2**power
+print("the last digit of 2 raised to ", power, " is ", ".",sep="")
+print(ans % 10)
+
+ *My favorite app::Python3 IDE Fresh Edition  https://itunes.apple.com/app/id1397406775?mt=8
